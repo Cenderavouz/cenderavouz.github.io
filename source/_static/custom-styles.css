@@ -1,0 +1,77 @@
+/* https://google-webfonts-helper.herokuapp.com */
+
+/* space-mono-regular - latin */
+@font-face {
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Space Mono'), local('SpaceMono-Regular'),
+       url('fonts/space-mono-v2-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('fonts/space-mono-v2-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* pt-mono-regular - latin */
+@font-face {
+  font-family: 'PT Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local('PT Mono'), local('PTMono-Regular'),
+       url('fonts/pt-mono-v5-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('fonts/pt-mono-v5-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
+div.sphinxsidebar h4 { font-family: 'PT Mono', monospace; }
+
+div.sphinxsidebar input { font-family: 'PT Mono', monospace; }
+
+div.body h6 { font-family: 'PT Mono', monospace; } 
+
+div.admonition p.admonition-title { font-family: 'PT Mono', monospace; }
+
+body{
+    font-family: 'Space Mono', monospace;
+}
+h1,h2,h3,h4,h5,.site-content .topic-title,.toctree-wrapper .caption,.auto-toc .caption{
+    font-family: 'Space Mono', monospace;
+}
+
+.site-searchform [type=text]{
+    font-family: 'Space Mono', monospace;
+}
+.site-content .download{
+    font-family: 'Space Mono', monospace;
+}
+
+.guilabel, .menuselection {
+    font-family: 'Space Mono', monospace;
+}
+.viewcode-back {
+    font-family: 'Space Mono', monospace;
+}
+
+div.sphinxsidebar h3 {
+    font-family: 'Space Mono', monospace;
+}
+
+div.body h1,
+div.body h2,
+div.body h3,
+div.body h4,
+div.body h5 {
+    font-family: 'Space Mono', monospace;
+}
+
+
+.codeblock,.site-content .literal-block,.site-content .literal-block,[class^='highlight']{
+    font-family: 'PT Mono', monospace;
+}
+
+.site-content .literal{
+    font-family: 'PT Mono', monospace;
+}
+
+.highlighted{
+    font-family: 'PT Mono', monospace;
+}
+

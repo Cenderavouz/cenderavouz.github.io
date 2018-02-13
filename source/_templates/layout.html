@@ -1,0 +1,6 @@
+{% extends "classic/layout.html" %}
+
+{%- block extrahead %}
+  {{ super() }}
+  <link href="{{ pathto("_static/custom-styles.css", 1) }}" rel="stylesheet">
+{%- endblock extrahead %}
