@@ -1,0 +1,118 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="id">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Asumsi &#8212; dokumentasi Cenderavouz </title>
+    <link rel="stylesheet" href="../../../_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../../',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  false,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../../_static/translations.js"></script>
+    <link rel="index" title="Indeks" href="../../../genindex.html" />
+    <link rel="search" title="Pencarian" href="../../../search.html" />
+    <link rel="next" title="Kaidah" href="../../db-kaidah.html" />
+    <link rel="prev" title="Pemakaian" href="memakai.html" />
+   
+  <link href="../../../_static/custom-styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigasi</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../../genindex.html" title="Indeks Umum"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../../db-kaidah.html" title="Kaidah"
+             accesskey="N">berikut</a> |</li>
+        <li class="right" >
+          <a href="memakai.html" title="Pemakaian"
+             accesskey="P">sebelum</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../../index.html">dokumentasi Cenderavouz </a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../../index.html" >Database</a> &#187;</li>
+          <li class="nav-item nav-item-2"><a href="../index.html" >Templat</a> &#187;</li>
+          <li class="nav-item nav-item-3"><a href="index.html" accesskey="U">Stok Harian</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="asumsi">
+<h1>Asumsi<a class="headerlink" href="#asumsi" title="Link permanen untuk headline ini">¶</a></h1>
+<p>Karena sifatnya yang dibuat sesuai pesanan, ada beberapa asumsi yang membatasi Templat Database ini.</p>
+<ul class="simple">
+<li>Pencatatan dan Tampilan dimaksudkan hanya untuk stok hari yang sedang berlangsung (current day). Ini berarti data stok kemarin dan hari lainnya menjadi usang (kecuali untuk penyalinan data Perdana).</li>
+<li>Tampilan koleksi <span class="guilabel">Stok Harian</span> diatur per grup sesuai field <code class="docutils literal"><span class="pre">Nama</span> <span class="pre">Brg</span></code>. Hal ini dimaksudkan untuk memudahkan melihat alur stok barang menurut jam.</li>
+<li><a class="reference internal" href="../../db-daftar-istilah.html#term-action"><span class="xref std std-term">Action-action</span></a> dimaksudkan untuk dijalankan pada awal hari (sebelum memulai jual-beli).</li>
+<li>Urutan dimaksudkan untuk menyusun catatan barang-barang yang tetap setiap harinya.</li>
+<li>Agregasi <code class="docutils literal"><span class="pre">Masuk</span></code> dihitung berdasarkan penjumlahan field <code class="docutils literal"><span class="pre">Masuk</span></code> untuk tiap-tiap <code class="docutils literal"><span class="pre">Nama</span> <span class="pre">Brg</span></code>.</li>
+<li>Agregasi <code class="docutils literal"><span class="pre">Total</span></code> dihitung berdasarkan penjumlahan field <code class="docutils literal"><span class="pre">Awal</span> <span class="pre">+</span> <span class="pre">Masuk</span> <span class="pre">-</span> <span class="pre">Akhir</span></code> untuk tiap-tiap <code class="docutils literal"><span class="pre">Nama</span> <span class="pre">Brg</span></code>.</li>
+</ul>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h4>Topik sebelum</h4>
+  <p class="topless"><a href="memakai.html"
+                        title="bab sebelum">Pemakaian</a></p>
+  <h4>Topik berikutnya</h4>
+  <p class="topless"><a href="../../db-kaidah.html"
+                        title="bab berikutnya">Kaidah</a></p>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Pencarian cepat</h3>
+    <form class="search" action="../../../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigasi</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../../genindex.html" title="Indeks Umum"
+             >index</a></li>
+        <li class="right" >
+          <a href="../../db-kaidah.html" title="Kaidah"
+             >berikut</a> |</li>
+        <li class="right" >
+          <a href="memakai.html" title="Pemakaian"
+             >sebelum</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../../index.html">dokumentasi Cenderavouz </a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../../index.html" >Database</a> &#187;</li>
+          <li class="nav-item nav-item-2"><a href="../index.html" >Templat</a> &#187;</li>
+          <li class="nav-item nav-item-3"><a href="index.html" >Stok Harian</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+      Dibuat menggunakan <a href="http://sphinx-doc.org/">Sphinx</a> 1.6.3.
+    </div>
+  </body>
+</html>

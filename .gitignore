@@ -1,3 +1,7 @@
 j/
-build/
-venv/
+docs/build/
+docs/venv/
+
+## Sphinx-build output:
+.buildinfo
+objects.inv

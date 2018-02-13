@@ -1,0 +1,232 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="id">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Pemakaian &#8212; dokumentasi Cenderavouz </title>
+    <link rel="stylesheet" href="../../../_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../../',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  false,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../../_static/translations.js"></script>
+    <link rel="index" title="Indeks" href="../../../genindex.html" />
+    <link rel="search" title="Pencarian" href="../../../search.html" />
+    <link rel="next" title="Asumsi" href="asumsi.html" />
+    <link rel="prev" title="Memulai" href="memulai.html" />
+   
+  <link href="../../../_static/custom-styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigasi</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../../genindex.html" title="Indeks Umum"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="asumsi.html" title="Asumsi"
+             accesskey="N">berikut</a> |</li>
+        <li class="right" >
+          <a href="memulai.html" title="Memulai"
+             accesskey="P">sebelum</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../../index.html">dokumentasi Cenderavouz </a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../../index.html" >Database</a> &#187;</li>
+          <li class="nav-item nav-item-2"><a href="../index.html" >Templat</a> &#187;</li>
+          <li class="nav-item nav-item-3"><a href="index.html" accesskey="U">Stok Harian</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="pemakaian">
+<h1>Pemakaian<a class="headerlink" href="#pemakaian" title="Link permanen untuk headline ini">¶</a></h1>
+<div class="section" id="tambah-data-barang">
+<h2>Tambah data barang<a class="headerlink" href="#tambah-data-barang" title="Link permanen untuk headline ini">¶</a></h2>
+<p>Langkah awal pencatatan Stok Harian adalah mencatat semua barang yang tersedia. Daftar tersebut dimasukkan ke koleksi <span class="guilabel">Daftar Barang</span>. Koleksi ini akan menjadi sumber data bagi Autofill di koleksi <span class="guilabel">Stok Harian</span>. Pastikan data barang tersedia sebelum dapat ditemukan saat pencatatan stok.</p>
+<p><strong>Cara pendaftaran barang</strong></p>
+<ol class="arabic simple">
+<li>Buka koleksi <span class="guilabel">Daftar Barang</span>.</li>
+<li>Sentuh <a class="reference internal" href="../../../_images/ic_add_circle_black_48dp1.png"><img alt="addc" src="../../../_images/ic_add_circle_black_48dp1.png" style="width: 1em;" /></a>.</li>
+<li>Isi field <code class="docutils literal"><span class="pre">Nama</span> <span class="pre">Brg</span></code>.</li>
+<li>Pilih field <code class="docutils literal"><span class="pre">Jenis</span> <span class="pre">barang</span></code>.</li>
+<li>Sentuh <a class="reference internal" href="../../../_images/ic_done_black_48dp1.png"><img alt="done" src="../../../_images/ic_done_black_48dp1.png" style="width: 1em;" /></a> untuk menyimpan entri.</li>
+</ol>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p><em>Otomatisasi</em></p>
+<p class="last">Field <code class="docutils literal"><span class="pre">Urutan</span></code> akan otomatis terisi. Field ini digunakan untuk untuk script pemograman.</p>
+</div>
+</div>
+<div class="section" id="catat-stok-harian">
+<h2>Catat stok harian<a class="headerlink" href="#catat-stok-harian" title="Link permanen untuk headline ini">¶</a></h2>
+<p>Koleksi <cite>Stok Harian</cite> menyimpan semua data persediaan barang. Koleksi ini digunakan dan ditampilkan menurut aturan tertentu. (Lihat: <a class="reference internal" href="asumsi.html"><span class="doc">Asumsi</span></a>)</p>
+<p><strong>Cara pencatatan stok harian</strong></p>
+<ol class="arabic simple">
+<li>Buka koleksi <span class="guilabel">Stok Harian</span>.</li>
+<li>Sentuh <a class="reference internal" href="../../../_images/ic_add_circle_black_48dp1.png"><img alt="addc" src="../../../_images/ic_add_circle_black_48dp1.png" style="width: 1em;" /></a>.</li>
+<li>Ketik beberapa huruf awal dari barang yang ingin dicatat.</li>
+<li>Pilih barang yang dituju dari daftar <cite>drop-down</cite>.</li>
+<li>Pilih field <code class="docutils literal"><span class="pre">Kegiatan</span></code>.</li>
+<li>Isi field <code class="docutils literal"><span class="pre">Nominal</span></code>.</li>
+<li>Masukkan <code class="docutils literal"><span class="pre">Harga&#64;</span></code> atau <code class="docutils literal"><span class="pre">Keterangan</span></code> lain. (opsional)</li>
+<li>Sentuh <a class="reference internal" href="../../../_images/ic_done_black_48dp1.png"><img alt="done" src="../../../_images/ic_done_black_48dp1.png" style="width: 1em;" /></a> untuk menyimpan entri.</li>
+</ol>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p><em>Otomatisasi</em></p>
+<p>Field <code class="docutils literal"><span class="pre">Nama</span></code> dan <code class="docutils literal"><span class="pre">Jenis</span></code> akan otomatis terisi sesuai data pada
+koleksi <span class="guilabel">Daftar Barang</span>. Jika barang yang dikehendaki tidak ada,
+silakan memasukkannya terlebih dahulu.</p>
+<p class="last">Tab <code class="docutils literal"><span class="pre">Kode</span></code> berisi data otomatisasi script pemogramman.</p>
+</div>
+<p><strong>Tampilan</strong></p>
+<p>Koleksi ini punya tampilan default, dengan metode sortir, grup, dan filter tertentu. Untuk mengubah cara data disajikan, sentuh tombol <a class="reference internal" href="../../../_images/ic_more_vert_black_48dp1.png"><img alt="more" src="../../../_images/ic_more_vert_black_48dp1.png" style="width: 1em;" /></a>, pilih <em>Lainnya</em>, dan ubah metode tampilan sesuai kebutuhan.</p>
+</div>
+<div class="section" id="salin-data-stok-umum">
+<h2>Salin data stok umum<a class="headerlink" href="#salin-data-stok-umum" title="Link permanen untuk headline ini">¶</a></h2>
+<p>Action <span class="guilabel">Salin data stok umum</span> adalah penyalinan otomatis data-data stok tetap. Action ini mengambil data menurut field <code class="docutils literal"><span class="pre">Urutan</span></code> pada koleksi <span class="guilabel">Daftar barang</span>.</p>
+<div class="admonition note">
+<p class="first admonition-title">Catatan</p>
+<p><em>Otomatisasi</em></p>
+<p>Field <code class="docutils literal"><span class="pre">Kegiatan</span></code> pada salinan entri akan terisi 'Awal'.</p>
+<p class="last">Field <code class="docutils literal"><span class="pre">Nominal</span></code> pada salinan entri akan terisi '0'.</p>
+</div>
+<p><strong>Cara salin data stok umum</strong></p>
+<ol class="arabic simple">
+<li>Buka koleksi <span class="guilabel">Stok Harian</span>.</li>
+<li>Sentuh <a class="reference internal" href="../../../_images/ic_slideshow_black_48dp1.png"><img alt="play_" src="../../../_images/ic_slideshow_black_48dp1.png" style="width: 1em;" /></a></li>
+<li>Pilih <em>Salin data stok umum</em></li>
+<li>Masukkan nomor terakhir dari urutan data yang ingin disalin (contoh: memasukkan 17, akan menyalin data nomor 1 sampai 17).</li>
+<li>Modifikasi salinan entri sesuai kebutuhan.</li>
+</ol>
+</div>
+<div class="section" id="salin-stok-perdana-terakhir">
+<h2>Salin stok perdana terakhir<a class="headerlink" href="#salin-stok-perdana-terakhir" title="Link permanen untuk headline ini">¶</a></h2>
+<p>Action <span class="guilabel">Salin data stok perdana terakhir</span> adalah penyalinan otomatis data-data stok Perdana. Action ini mengambil data dari tiga hari sebelumnya, yang disusun menurut tanggal dan waktu terakhir dicatat. (Lihat: <a class="reference internal" href="asumsi.html"><span class="doc">Asumsi</span></a>)</p>
+<div class="admonition note">
+<p class="first admonition-title">Catatan</p>
+<p><em>Otomatisasi</em></p>
+<p>Field <code class="docutils literal"><span class="pre">Kegiatan</span></code> pada salinan entri akan terisi 'Awal'.</p>
+<p class="last">Field <code class="docutils literal"><span class="pre">Nominal</span></code> pada salinan entri akan terisi sesuai data terakhir.</p>
+</div>
+<p><strong>Cara Salin stok perdana terakhir</strong></p>
+<ol class="arabic simple">
+<li>Buka koleksi <span class="guilabel">Stok Harian</span>.</li>
+<li>Sentuh <a class="reference internal" href="../../../_images/ic_slideshow_black_48dp1.png"><img alt="play_" src="../../../_images/ic_slideshow_black_48dp1.png" style="width: 1em;" /></a>.</li>
+<li>Pilih <em>Salin stok perdana terakhir</em>.</li>
+<li>Modifikasi salinan entri sesuai kebutuhan.</li>
+</ol>
+</div>
+<div class="section" id="laporan-kalender">
+<h2>Laporan kalender<a class="headerlink" href="#laporan-kalender" title="Link permanen untuk headline ini">¶</a></h2>
+<p>Catatan stok harian dapat disimpan pada aplikasi kalender. Penyimpanan ini berguna untuk pengecekan ulang dari waktu ke waktu.</p>
+<p><strong>Cara Membuat laporan kalender</strong></p>
+<ol class="arabic simple">
+<li>Buka koleksi <span class="guilabel">Stok Harian</span>.</li>
+<li>Sentuh <a class="reference internal" href="../../../_images/ic_slideshow_black_48dp1.png"><img alt="play_" src="../../../_images/ic_slideshow_black_48dp1.png" style="width: 1em;" /></a>.</li>
+<li>Pilih <em>Laporan</em>.</li>
+<li>Pilih aplikasi kalender bawaan anda.</li>
+</ol>
+</div>
+<div class="section" id="modifikasi-data">
+<h2>Modifikasi Data<a class="headerlink" href="#modifikasi-data" title="Link permanen untuk headline ini">¶</a></h2>
+<p>Entri yang telah dicatat dapat dimodifikasi (<em>Sunting</em>, <em>Salin</em>, <em>Hapus</em>). Modifikasi ini berlaku untuk setiap koleksi dari Templat Database yang ada.</p>
+<p><strong>Cara Modifikasi Data</strong></p>
+<ol class="arabic simple">
+<li>Buka koleksi yang dituju.</li>
+<li>Sentuh-lama entri yang akan disunting.</li>
+<li>Pilih metode modifikasi:<ul>
+<li><a class="reference internal" href="../../../_images/ic_mode_edit_black_48dp1.png"><img alt="edit" src="../../../_images/ic_mode_edit_black_48dp1.png" style="width: 1em;" /></a> untuk menyunting data.</li>
+<li><a class="reference internal" href="../../../_images/ic_content_copy_black_48dp1.png"><img alt="copy" src="../../../_images/ic_content_copy_black_48dp1.png" style="width: 1em;" /></a> untuk menyalin.</li>
+<li><a class="reference internal" href="../../../_images/ic_delete_black_48dp1.png"><img alt="del" src="../../../_images/ic_delete_black_48dp1.png" style="width: 1em;" /></a> untuk menghapus.</li>
+</ul>
+</li>
+<li>Ubah/buat/hapus data.</li>
+</ol>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">Metode modifikasi <em>Sunting</em> dan <em>Hapus</em> dapat dilakukan secara borongan.
+Pertama-tama sentuh-lama entri pertama yang ingin dimodifikasi,
+selanjutnya sentuh-lama entri lainnya.</p>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../../index.html">Daftar Isi</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Pemakaian</a><ul>
+<li><a class="reference internal" href="#tambah-data-barang">Tambah data barang</a></li>
+<li><a class="reference internal" href="#catat-stok-harian">Catat stok harian</a></li>
+<li><a class="reference internal" href="#salin-data-stok-umum">Salin data stok umum</a></li>
+<li><a class="reference internal" href="#salin-stok-perdana-terakhir">Salin stok perdana terakhir</a></li>
+<li><a class="reference internal" href="#laporan-kalender">Laporan kalender</a></li>
+<li><a class="reference internal" href="#modifikasi-data">Modifikasi Data</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Topik sebelum</h4>
+  <p class="topless"><a href="memulai.html"
+                        title="bab sebelum">Memulai</a></p>
+  <h4>Topik berikutnya</h4>
+  <p class="topless"><a href="asumsi.html"
+                        title="bab berikutnya">Asumsi</a></p>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Pencarian cepat</h3>
+    <form class="search" action="../../../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigasi</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../../genindex.html" title="Indeks Umum"
+             >index</a></li>
+        <li class="right" >
+          <a href="asumsi.html" title="Asumsi"
+             >berikut</a> |</li>
+        <li class="right" >
+          <a href="memulai.html" title="Memulai"
+             >sebelum</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../../index.html">dokumentasi Cenderavouz </a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../../index.html" >Database</a> &#187;</li>
+          <li class="nav-item nav-item-2"><a href="../index.html" >Templat</a> &#187;</li>
+          <li class="nav-item nav-item-3"><a href="index.html" >Stok Harian</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+      Dibuat menggunakan <a href="http://sphinx-doc.org/">Sphinx</a> 1.6.3.
+    </div>
+  </body>
+</html>

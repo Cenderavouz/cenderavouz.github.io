@@ -11,6 +11,7 @@ Repo ini berisi sumber-kode dokumentasi Cenderavouz. Pembangunan dokumentasi ter
 
 * Di terminal::
 
+   cd docs
    pip install -r requirements.txt
    make html
 
