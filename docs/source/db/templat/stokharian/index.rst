@@ -5,14 +5,14 @@ Stok Harian
    :maxdepth: 2
    :caption: Daftar Isi
    
-   :Pengantar <pengantar>
-   :Memulai <memulai>
-   :Pemakaian <memakai>
-   :Asumsi <asumsi>
+   Pengantar <pengantar>
+   Memulai <memulai>
+   Pemakaian <memakai>
+   Asumsi <asumsi>
 
 .. toctree::
    :titlesonly:
    
-   :Kaidah <../../db-kaidah>
-   :Daftar Istilah <../../db-daftar-istilah>
-   :FAQ <../../db-faq>
+   Kaidah <../../db-kaidah>
+   Daftar Istilah <../../db-daftar-istilah>
+   FAQ <../../db-faq>

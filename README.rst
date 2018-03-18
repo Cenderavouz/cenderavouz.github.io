@@ -1,7 +1,7 @@
 Dokumentasi Cenderavouz
 =======================
 
-Repo ini berisi sumber-kode dokumentasi Cenderavouz. Pembangunan dokumentasi terdiri dari dua cara, tergantung dari tipe dokumen.
+Repo ini berisi sumber-kode Web Cenderavouz. Pembangunan dokumentasi terdiri dari dua cara, tergantung dari tipe dokumen yang akan dibuat.
 
 **Web utama (HTML)**
 

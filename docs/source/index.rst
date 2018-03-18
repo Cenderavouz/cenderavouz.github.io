@@ -6,6 +6,8 @@
 Dokumentasi Cenderavouz
 =======================
 
+Lihat :doc:`catatan rilis <rilis>`.
+
 .. toctree::
    :maxdepth: 1
    :caption: Daftar Isi
