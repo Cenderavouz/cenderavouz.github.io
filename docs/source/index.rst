@@ -6,15 +6,26 @@
 Dokumentasi Cenderavouz
 =======================
 
-Lihat :doc:`catatan rilis <rilis>`.
-
 .. toctree::
    :maxdepth: 1
-   :caption: Daftar Isi
+   :caption: Menu
    
-   db/index.rst
-   dok/index.rst
+   buku-saku-ukm
+   kas-sederhana         
    
+Pembaruan
+
+.. code:: python
+
+  0.1.00027 (28 Mei 2018)
+      Penyederhanaan isi
+      Penambahan info templat
+
+  0.1.00026 (14 Feb 2018)
+      Website Cenderavouz beserta sumber kode  diunggah ke repo
+
+  0.1.00025 (11 Feb 2018)
+      Repo organisasi dibuat
 
 Indeks and tabel
 ==================

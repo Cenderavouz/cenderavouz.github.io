@@ -27,22 +27,6 @@ html_show_sourcelink = False
 html_copy_source = False
 html_show_copyright = False
 
-rst_epilog = """
-.. |more| image:: /_static/img/ui/ic_more_vert_black_48dp.png
-   :width: 1 em
-.. |done| image:: /_static/img/ui/ic_done_black_48dp.png
-   :width: 1 em
-.. |play_| image:: /_static/img/ui/ic_slideshow_black_48dp.png
-   :width: 1 em
-.. |addc| image:: /_static/img/ui/ic_add_circle_black_48dp.png
-   :width: 1 em
-.. |edit| image:: /_static/img/ui/ic_mode_edit_black_48dp.png
-   :width: 1 em
-.. |copy| image:: /_static/img/ui/ic_content_copy_black_48dp.png
-   :width: 1 em
-.. |del| image:: /_static/img/ui/ic_delete_black_48dp.png
-   :width: 1 em
-"""
 
 # -- Options for HTMLHelp output ------------------------------------------
 htmlhelp_basename = 'Cenderavouz'
@@ -70,7 +54,6 @@ man_pages = [
      [author], 1)
 ]
 
-
 # -- Options for Texinfo output -------------------------------------------
 texinfo_documents = [
     (master_doc, 'cenderavouz', u'Cenderavouz',
@@ -84,16 +67,3 @@ epub_author = author
 epub_publisher = author
 epub_copyright = copyright
 epub_exclude_files = ['search.html']
-
-
-
-
-
-
-
-
-
-
-
-
-
