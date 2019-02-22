@@ -1,23 +1,36 @@
-Dokumentasi Cenderavouz
-=======================
+Cenderavouz Web
+===============
 
-Repo ini berisi sumber-kode dokumentasi Cenderavouz. Pembangunan dokumentasi bisa dilakukan dengan mengikuti langkah di bawah:
+Cenderavouz website build with Sphinx-docs and JamDocs.
 
-**Web HTML**
 
-* Unduh repo.
+Local Build
+-----------
 
-* Pasang `Python 3 <https://www.python.org/downloads/>`_.
+To localy serve the website:
 
-* Di terminal::
+* Clone the repository
 
-   cd docs
-   pip install -r requirements.txt
-   make html
-   move2root
+* Terminal:
 
+   $ cd docs
+   
+   $ pip install -r requirements.txt
+   
+   $ make html
+
+* Then browse the created html
+
+* Additional step to move the docs to the root path (required for Github's Organization Static Hosting)
+
+   $ move2root
 
 .. .
- 
-Ikuti juga Cenderavouz di IG: `@cenderavouz <https://www.instagram.com/cenderavouz/>`_ .
 
+
+Connect
+-------
+
+Follow Cenderavouz on IG: `@cenderavouz <https://www.instagram.com/cenderavouz/>`_ 
+
+We posts topics about Jam.py, Sphinx-docs, and Corporate Finance.

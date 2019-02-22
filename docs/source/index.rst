@@ -9,14 +9,16 @@ Dokumentasi Cenderavouz
 .. toctree::
    :maxdepth: 1
    :caption: Menu
-   
-   buku-saku-ukm
-   kas-sederhana         
-   
-Pembaruan
+
+Masih pembangunan. Silakan kembali lain kesempatan.
+
+Pembaruan:
 
 .. code:: python
 
+  0.1.00028 (22 Feb 2019)
+      Pembangunan kembali
+  
   0.1.00027 (28 Mei 2018)
       Penyederhanaan isi
       Penambahan info templat
